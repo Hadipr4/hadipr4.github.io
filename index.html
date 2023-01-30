@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HadiPratama | UI/UX Web Developer</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- EmailJS -->
+    <script type="text/javascript" src="js/mail.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("5ibSy-YZva1cmc82A");
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Hadi<span>Pratama</span> Design</a>
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Me</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#"><i data-feather="search"></i></a>
+        <a id="menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class="hero">
+      <main class="content">
+        <h1>Build Your <span>Website</span> With <span>Joy</span></h1>
+        <p>Get your beautiful website right now as fast as blink of an eye</p>
+        <a href="#portfolio" class="cta1">Portfolio</a>
+        <a href="#contact" class="cta2">Contact me</a>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about start -->
+    <section id="about" class="about">
+      <h2><span>About</span> Me</h2>
+
+      <div class="main">
+        <img src="assets/about-img.jpg" alt="Hadi Pratama at Bali beach" />
+        <div class="about-text">
+          <h3><span>Hi</span>, i'm Hadi Pratama</h3>
+          <h4>UI/UX Web Developer & <span>Designer</span></h4>
+          <p>
+            As a web designer I always strive to understand my client's needs
+            and create design solutions that align with their vision and goals.
+            I believe that good design can help enhance brand awareness and
+            increase conversion rates.
+          </p>
+          <p>
+            I enjoy working with clients from various industries and always
+            strive to deliver the best results.
+          </p>
+          <a href="#" class="cta1">let's talk</a>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- portfolio start -->
+    <section id="portfolio" class="portfolio">
+      <h2>Portfolio</h2>
+      <p>The latest project that i build are following :</p>
+      <div class="row">
+        <div class="card">
+          <h3 class="card-title">TROFRUITINDO</h3>
+          <img src="assets/port1-1.jpg" alt="Header TROFRUITINDO" />
+          <img src="assets/port1-2.jpg" alt="Product TROFRUITINDO" />
+          <img src="assets/port1-3.jpg" alt="Product TROFRUITINDO" />
+          <p>
+            Trofruit Indo is supplier that specialized in Pineapple, Betel Nuts
+            and Semi Husked Coconut.
+          </p>
+          <a href="https://trofruitindo.com/" target="_blank"
+            ><div class="cta1">Live Preview</div></a
+          >
+        </div>
+        <div class="card">
+          <h3 class="card-title">REALNEWSSUMSEL</h3>
+          <img src="assets/port2-1.jpg" alt="News at REALNEWSSUMSEL" />
+          <img src="assets/port2-2.jpg" alt="News at REALNEWSSUMSEL" />
+          <p>
+            RealNews Sumsel is an online news portal in south sumatera,
+            Indonesia.
+          </p>
+          <a href="https://realnewssumsel.com/" target="_blank"
+            ><div class="cta1">Live Preview</div></a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- portfolio end -->
+
+    <!-- contact start -->
+    <section>
+      <div class="contact">
+        <h2 id="contact"><span>Contact</span> Me</h2>
+        <p>
+          Feel free to contact me by WhatsApp or simply fill form below. i am
+          always ready to help and discuss your project.
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="box">
+              <div class="icon"><i data-feather="map-pin"></i></div>
+              <div class="text">
+                <h3>Address</h3>
+                <h4>South Sumatera, Indonesia</h4>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i data-feather="phone"></i></div>
+              <div class="text">
+                <h3>Phone</h3>
+                <a
+                  href="https://wa.me/+628AT85"
+                  onclick="this.href=this.href.replace(/AT/, '57587850')"
+                  target="_blank"
+                  >+628S7-S87-8SO-8S</a
+                >
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i data-feather="mail"></i></div>
+              <div class="text">
+                <h3>E-Mail</h3>
+                <a
+                  href="mailto:hadiprataamaaATgmailDOTcom"
+                  onclick="this.href=this.href
+              .replace(/AT/,'&#64;')
+              .replace(/DOT/,'&#46;')"
+                  >hadi<span id="temporary">REMOVE</span>prataa<span
+                    id="temporary"
+                    >REMOVE</span
+                  >maa@g<span id="temporary">REMOVE</span>mail<span
+                    id="temporary"
+                    >REMOVE</span
+                  >.com</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="contact-form">
+              <h3>Send Message</h3>
+              <form action="send">
+                <div class="input-box">
+                  <input type="text" name="name" required id="name" />
+                  <span>Full Name</span>
+                </div>
+                <div class="input-box">
+                  <input type="email" name="mail" required id="mail" />
+                  <span>E-Mail</span>
+                </div>
+                <div class="input-box">
+                  <textarea
+                    required
+                    name="message"
+                    id="message"
+                    aria-required="true"
+                  ></textarea>
+                  <span>Type your message...</span>
+                </div>
+                <div class="input-box">
+                  <button type="submit" onclick="sendMail()">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="row">
+        <div class="col">
+          <div class="socmed">
+            <a href="https://instagram.com/hadiprataamaa" target="_blank"
+              ><i data-feather="instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/hadi-pratama-b83624217/"
+              target="_blank"
+              ><i data-feather="linkedin"></i
+            ></a>
+            <a href="https://www.youtube.com/@hadipratama1932" target="_blank"
+              ><i data-feather="youtube"></i
+            ></a>
+          </div>
+          <div class="mid">Created with &#9825; by: HadiPratama</div>
+          <div class="credits">&copy 2023</div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- icons script start -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- icon script end -->
+
+    <!-- javascript start-->
+    <script src="js/script.js"></script>
+    <!-- javascript end -->
+  </body>
+</html>
